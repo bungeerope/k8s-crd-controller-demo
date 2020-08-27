@@ -1,0 +1,7 @@
+apiVersion: infra.quinn.domain/v1
+kind: VirtulMachine
+metadata:
+  name: virtulmachine-sample
+spec:
+  # Add fields here
+  foo: bar
