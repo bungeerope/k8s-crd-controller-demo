@@ -1,0 +1,7 @@
+domain: my.domain
+repo: my.domain/example
+resources:
+- group: devops
+  kind: MicroService
+  version: v1
+version: "2"
