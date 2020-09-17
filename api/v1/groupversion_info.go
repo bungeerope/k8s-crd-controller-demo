@@ -25,6 +25,7 @@ import (
 )
 
 var (
+
 	// GroupVersion is group version used to register these objects
 	GroupVersion = schema.GroupVersion{Group: "devops.my.domain", Version: "v1"}
 
