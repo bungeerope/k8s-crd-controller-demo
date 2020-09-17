@@ -5,7 +5,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	v1 "my.domain/example/api/v1"
+	v1 "my.domain/example/pkg/api/v1"
 )
 
 func NewDeployment(app *v1.MicroService) *appsv1.Deployment {

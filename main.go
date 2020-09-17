@@ -26,8 +26,8 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	devopsv1 "my.domain/example/api/v1"
-	"my.domain/example/controllers"
+	devopsv1 "my.domain/example/pkg/api/v1"
+	"my.domain/example/pkg/controllers"
 	// +kubebuilder:scaffold:imports
 )
 

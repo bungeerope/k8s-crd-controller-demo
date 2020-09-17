@@ -31,7 +31,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	devopsv1 "my.domain/example/api/v1"
+	devopsv1 "my.domain/example/pkg/api/v1"
 )
 
 // MicroServiceReconciler reconciles a MicroService object
